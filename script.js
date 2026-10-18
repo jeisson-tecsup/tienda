@@ -6,10 +6,12 @@ const productos = [
 function calcularTotal(lista) {
   let total = 0;
   for (const producto of lista) {
-    total = total + producto.precioo  *  producto.cantidad;
+    total = total + producto.precioo * producto.cantidad;
   }
   return total;
 }
 
 document.getElementById("total").textContent =
   "Total: S/ " + calcularTotal(productos).toFixed(2);
+
+  //correccion aaaaaaaaaaa
